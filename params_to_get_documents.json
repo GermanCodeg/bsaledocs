@@ -1,0 +1,13 @@
+{
+   "tipo_documento": "",
+    "n_documento": "",
+    "id_vendedor": "",
+    "id_emisor": "",
+    "id_sucursal": "",
+    "id_cliente": "",
+    "otros_attrs": "",
+    "use_exp_date": "0",
+    "fecha_inicio": "",
+    "fecha_termino": "",
+    "page": "1"
+}
