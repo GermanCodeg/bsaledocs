@@ -1,0 +1,2069 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bsale</title>
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+    <meta content="width=device-width; target-densitydpi=160; initial-scale=1.0; maximum-scale=1.0;" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Last-Modified" content="0" />
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    
+    <link href="/stylesheets/font-reset/font-reset.css?1669843816" media="screen" rel="stylesheet" type="text/css">
+    <link href="https://d235ymqxuwzadc.cloudfront.net/stylesheets/flexcrollstyles.css?1669843816" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://d235ymqxuwzadc.cloudfront.net/stylesheets/default/jquery-ui/jquery.min.css?1669843816" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://d235ymqxuwzadc.cloudfront.net/stylesheets/default/reset.css?1669843816" media="screen" rel="stylesheet" type="text/css" />
+    
+    <link href="https://d235ymqxuwzadc.cloudfront.net/stylesheets/default/struct.css?1669843816" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://d235ymqxuwzadc.cloudfront.net/stylesheets/default/text.css?1669843816" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://d235ymqxuwzadc.cloudfront.net/stylesheets/default/color.css?1669843816" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://d235ymqxuwzadc.cloudfront.net/stylesheets/default/menu.css?1669843816" media="screen" rel="stylesheet" type="text/css" />
+    
+  <link href="https://d235ymqxuwzadc.cloudfront.net/stylesheets/fancybox/jquery.fancybox.css?1669843816" media="all" rel="stylesheet" type="text/css" />
+
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/jquery-1.7.2.min.js?1669843816" type="text/javascript"></script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/options_menu.js?1669843816" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="main">
+      
+      
+<div id="main_menu" class="">
+  
+    <div id="main_logo" onclick="floatingGoto('/')"></div>
+  
+  <div id="main_links">
+    
+      
+      
+        
+        <a id='docs_menu' class="" href="/goto?owner=bsale&url=/documents">Documentos</a>
+      
+        
+        <a  class="" href="/goto?owner=bsale&url=/documents/shipping">Despacho</a>
+      
+        
+        <a id='pos_menu' class="" href="/goto?owner=bsale&url=/mobile">Punto de Venta</a>
+      
+        
+        <a  class="" href="/goto?owner=bsale&url=/admin/stock">Stock</a>
+      
+        
+        <a  class="" href="/goto?owner=bsale&url=/reports">Reportes</a>
+      
+    
+  </div>
+  <div id="main_settings">
+    
+      <a id="ayuda_btn" target="bsale_support" href="https://www.bsale.cl/sheet/como-podemos-ayudarte?email=cescorza@dabae.cl&nombre=Carolina  Escorza Rojas&account=Inversiones OBDC SpA&id=22390">¡Ayuda! </a>
+      <a id="sistema_btn" href="javascript:void(0);" class="icon icon-config"></a>
+      <span id="usuario_btn" href="javascript:void(0);" title="Carolina  Escorza Rojas"><label>C</label></span>
+    
+  </div>
+  <div id="usr_info">
+    <span title="Inversiones OBDC SpA">Inversiones OBDC SpA</span>
+    <label title="Casa Matriz">Casa Matriz</label>
+  </div>
+</div>
+
+
+  <div id="main_submenu">
+    
+      <div id="main_submenu_floating">
+        
+  <select id="floating_mae_menu" class="floating_mae_menu">
+    
+      <option value="/admin/clientes"  >Cliente</option>
+    
+    
+      <option value="/admin/descuentos"  >Descuento</option>
+    
+    
+      <option value="/admin/forma_pagos"   >Forma de Pago</option>
+    
+    
+      <option value="/admin/renovations"  >Renovación</option>
+    
+    
+      <option value="/admin/sales_conditions"   >Condicion de Venta</option>
+    
+    
+      <option value="/admin/impuestos"   >Impuesto</option>
+    
+    
+      <option value="/admin/lista_precios"   >Lista de Precios</option>
+    
+    
+      <option value="/admin/monedas"   >Moneda</option>
+    
+    
+      <option value="/admin/sucursales"   >Sucursal</option>
+    
+    
+      <option value="/admin/tipo_producto"  >Tipo de Producto o Servicio</option>
+    
+    
+      <option value="/goto?owner=product_new&url=/admin/v2/products"   >Productos y Servicios</option>
+    
+    
+      <option value="/admin/kits"  >Kits</option>
+    
+    
+      <option value="/admin/tipo_documento_tributarios"   >Tipo de Documento</option>
+    
+    
+      <option value="/admin/perfiles"   >Perfil de Acceso</option>
+    
+    
+      <option value="/admin/usuarios"   >Usuario</option>
+    
+    
+      <option value="/admin/config/sys_config"  selected="selected" >Configuración General</option>
+    
+    
+      <option value="/admin/config/sii_caf"   >SII Carga de Folios</option>
+    
+    
+      
+        <option value="/admin/bpoints"   >Programa de Puntos</option>
+      
+    
+    
+    
+  </select>
+
+      </div>
+    
+    <div id="main_submenu_links">
+      
+  <a></a>
+
+
+    </div>
+  </div>
+
+
+
+
+  
+    <div id="opciones_sistema" class="float_menu hidden">
+      
+        <a href="/goto?owner=product_new&url=/admin/v2/products">Productos y Servicios</a>
+      
+        <a href="/goto?owner=bsale&url=/admin/lista_precios">Lista de Precios</a>
+      
+        <a href="/goto?owner=bsale&url=/admin/clientes">Clientes</a>
+      
+        <a href="/goto?owner=bsale&url=/admin/sucursales">Sucursales</a>
+      
+        <a href="/goto?owner=bsale&url=/admin/maes">Ver Mas</a>
+      
+    </div>
+  
+
+<div id="opciones_usuario" class="float_menu hidden">
+  <div id="fm_usr_info">
+    <span title="Inversiones OBDC SpA">Inversiones OBDC SpA</span>
+    <label title="Casa Matriz">Casa Matriz</label>
+  </div>
+  
+  
+  
+  
+  <a href="#" onclick="floatingGoto('/goto/change_pass')">Cambie su Clave</a>
+  
+    <a href="#" onclick="window.open('/goto/my_invoice', '_blank')">Mi Cuenta</a>      
+  
+  
+  <a href="#" onclick="floatingGoto('/logout')">Salir</a>
+</div>
+
+
+
+      <div id="main_body" class="">
+        <div id="main_group">
+          <div id="content" class="fw">
+            
+            <div class="body">
+              <div class="body-group">
+                
+  <div id="mae_sys_config" class="cbnf scroll">
+    <div id="sys_config">
+      
+<form action="/admin/config/sys_config/update" enctype="multipart/form-data" id="sys_config_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="ipKW75rl07EnuxyMDqNpj5yrghVjEFKr0NeMf4bD/Mk=" /></div>
+  <div class="tab">
+    <ul>
+      
+        <li class="selected">
+          <a tab-id="datos-de-la-empresa" href="javascript:void(0);">Datos de la Empresa</a>
+        </li>
+        
+      
+        <li class="">
+          <a tab-id="configuracion-general" href="javascript:void(0);">Configuración General</a>
+        </li>
+        
+      
+        <li class="">
+          <a tab-id="punto-de-venta" href="javascript:void(0);">Punto de Venta</a>
+        </li>
+        
+      
+        <li class="">
+          <a tab-id="integraciones" href="javascript:void(0);">Integraciones</a>
+        </li>
+        
+      
+    </ul>
+    <div class="content_tab">
+      
+      
+        <div id="datos-de-la-empresa" class="selected">
+          <div id="titulo_empresa" class="mae-h selected">
+            <div class="mae-attr-body-det">
+              <div class="mae-attr-sys">
+                Descripción
+              </div>
+              <div class="mae-attr-sys">
+                Valor
+              </div>
+            </div>
+          </div>
+          
+          <div id="lista_var_empresa" class="selected">
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(1) Razón social">(1) Razón social</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="emp_razon_social"type="text" name="sys_config[][valor]" value="INVERSIONES OBDC SPA" class="needed"/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="emp_razon_social" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(2) Giro">(2) Giro</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="emp_giro"type="text" name="sys_config[][valor]" value="COMERCIALIZACION DE PRODUCTOS, EVENTOS, SERVICIOS DE LOGISTICA" class="needed"/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="emp_giro" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(3) Rut">(3) Rut</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="emp_rut"type="text" name="sys_config[][valor]" value="76.838.223-9" class="needed needed-rut" />
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="emp_rut" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(4) Comuna">(4) Comuna</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="emp_comuna"type="text" name="sys_config[][valor]" value="VITACURA" class="needed"/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="emp_comuna" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(5) Ciudad">(5) Ciudad</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="emp_ciudad"type="text" name="sys_config[][valor]" value="SANTIAGO" class="needed" />
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="emp_ciudad" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(6) Dirección">(6) Dirección</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="emp_direccion"type="text" name="sys_config[][valor]" value="AVENIDA KENNEDY 6800, Local 616 B" class="needed" />
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="emp_direccion" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(7) Region">(7) Region</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="emp_region"type="text" name="sys_config[][valor]" value="" />
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="emp_region" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(8) Correo electrónico">(8) Correo electrónico</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="emp_email"type="text" name="sys_config[][valor]" value="inversionesobdc@gmail.com" class="needed-mail"/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="emp_email" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(9) Pagina Web">(9) Pagina Web</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="emp_pagina_web"type="text" name="sys_config[][valor]" value="" />
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="emp_pagina_web" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(10) Teléfono">(10) Teléfono</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="emp_fono"type="text" name="sys_config[][valor]" value="226057826"/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="emp_fono" />
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="Logo">Logo</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    
+                      <a class="mae-link logo_emp" id="vlogoemp" href="javascript:void(0);">Ver Logo Actual</a>
+                      <a class="mae-link logo_emp" id="nlogoemp" href="javascript:void(0);">Cargar un Nuevo Logo</a>
+                    
+                    <input type="file" size="15" name="imagen[imagen]" id="new_file_element" class='hidden'/>
+                    <input type="hidden" size="15" id="logo_url" value="http://s3.amazonaws.com/bsale/22390/images/24_OBDC L.jpg?1538672664"/>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      
+        <div id="configuracion-general" class="">
+          <div id="titulo_empresa" class="mae-h selected">
+            <div class="mae-attr-body-det">
+              <div class="mae-attr-sys">
+                Descripción
+              </div>
+              <div class="mae-attr-sys">
+                Valor
+              </div>
+            </div>
+          </div>
+          
+          <div id="lista_var_empresa" class="selected">
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(1) ¿Con cuantos decimales trabajas?">(1) ¿Con cuantos decimales trabajas?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="cantidad_decimales"type="text" name="sys_config[][valor]" value="3" class="validate-numbers" max-value="6" decimal="false" />
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="cantidad_decimales" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(2) ¿Como clasificas lo que vendes?">(2) ¿Como clasificas lo que vendes?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="categoria_producto" class="revisar_dependencias" name="sys_config[][valor]"><option value="0"  >Productos</option><option value="1" >Servicios</option><option value="2" selected=selected>Productos y Servicios</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="categoria_producto" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(3) ¿Quieres controlar el stock de tus productos?">(3) ¿Quieres controlar el stock de tus productos?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select class="revisa_dep_stock" id="control_stock" name="sys_config[][valor]"><option value="0"  >No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="control_stock" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(4) ¿Permitir crear servicios (glosas) al generar documentos?">(4) ¿Permitir crear servicios (glosas) al generar documentos?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select class="glosa_dyn" id="glosa_dinamica_servicios"name="sys_config[][valor]"><option value="0"  >No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="glosa_dinamica_servicios" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(5) Cuando generas documentos de venta ¿Que tipo utilizas normalmente?">(5) Cuando generas documentos de venta ¿Que tipo utilizas normalmente?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select 70272259392040="default_tipo_documento_tributario_sales" id="sys_config__valor" name="sys_config[][valor]"><option value="0">Sin definir</option>
+<option value="1" selected="selected">BOLETA ELECTRÓNICA T</option>
+<option value="5">FACTURA ELECTRÓNICA</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="default_tipo_documento_tributario_sales" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(6) ¿Realizas entregas despues de la venta?">(6) ¿Realizas entregas despues de la venta?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select class="revisar_dependencias" id="despacho" name="sys_config[][valor]"><option value="0"  >No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="despacho" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(7) Desde documentos: ¿Que Tipo de Entrega por defecto requieres?">(7) Desde documentos: ¿Que Tipo de Entrega por defecto requieres?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="tipo_entrega_documents"name="sys_config[][valor]"><option value="0" selected=selected >Entrega Inmediata</option><option value="1" >Por Despachar</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="tipo_entrega_documents" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(8) Día de inico de la semana">(8) Día de inico de la semana</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="dia_inicio_semana" name="sys_config[][valor]"><option value="0"  >Domingo</option><option value="1" selected=selected>Lunes</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="dia_inicio_semana" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(9) Forma de pago por defecto">(9) Forma de pago por defecto</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="forma_pago_pos" name="sys_config[][valor]"><option value="0">Sin definir</option>
+<option value="1" selected="selected">EFECTIVO</option>
+<option value="2">TARJETA CREDITO</option>
+<option value="3">NOTA CREDITO DEVOLUCION</option>
+<option value="4">CREDITO</option>
+<option value="5">CHEQUE</option>
+<option value="6">TARJETA DEBITO</option>
+<option value="7">ABONO DE CLIENTE</option>
+<option value="8">TRANSFERENCIA BANCARIA</option>
+<option value="10">WEBPAY</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="forma_pago_pos" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(10) Tiempo maximo para anular una venta">(10) Tiempo maximo para anular una venta</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="tiempo_maximo_anulacion"type="text" name="sys_config[][valor]" value="10" class="validate-numbers" decimal="false"/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="tiempo_maximo_anulacion" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(11) Unidad anulacion de una venta">(11) Unidad anulacion de una venta</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="unidad_tiempo_maximo_anulacion" name="sys_config[][valor]"><option value="0" selected=selected >Día(s)</option><option value="1" >Mes(es)</option><option value="2" >Año(s)</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="unidad_tiempo_maximo_anulacion" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(12) Tiempo maximo para devolver una venta">(12) Tiempo maximo para devolver una venta</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="tiempo_maximo_devolucion"type="text" name="sys_config[][valor]" value="90" class="validate-numbers" decimal="false"/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="tiempo_maximo_devolucion" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(13) Unidad devolucion de una venta">(13) Unidad devolucion de una venta</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="unidad_tiempo_maximo_devolucion" name="sys_config[][valor]"><option value="0" selected=selected >Día(s)</option><option value="1" >Mes(es)</option><option value="2" >Año(s)</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="unidad_tiempo_maximo_devolucion" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(14) Zona horaria">(14) Zona horaria</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="sys_config_time_zone" name="sys_config[time_zone]"><option value="International Date Line West">(GMT-11:00) International Date Line West</option>
+<option value="Midway Island">(GMT-11:00) Midway Island</option>
+<option value="Samoa">(GMT-11:00) Samoa</option>
+<option value="Hawaii">(GMT-10:00) Hawaii</option>
+<option value="Alaska">(GMT-09:00) Alaska</option>
+<option value="Pacific Time (US &amp; Canada)">(GMT-08:00) Pacific Time (US &amp; Canada)</option>
+<option value="Tijuana">(GMT-08:00) Tijuana</option>
+<option value="Arizona">(GMT-07:00) Arizona</option>
+<option value="Chihuahua">(GMT-07:00) Chihuahua</option>
+<option value="Mazatlan">(GMT-07:00) Mazatlan</option>
+<option value="Mountain Time (US &amp; Canada)">(GMT-07:00) Mountain Time (US &amp; Canada)</option>
+<option value="Central America">(GMT-06:00) Central America</option>
+<option value="Central Time (US &amp; Canada)">(GMT-06:00) Central Time (US &amp; Canada)</option>
+<option value="Guadalajara">(GMT-06:00) Guadalajara</option>
+<option value="Mexico City">(GMT-06:00) Mexico City</option>
+<option value="Monterrey">(GMT-06:00) Monterrey</option>
+<option value="Saskatchewan">(GMT-06:00) Saskatchewan</option>
+<option value="Bogota">(GMT-05:00) Bogota</option>
+<option value="Eastern Time (US &amp; Canada)">(GMT-05:00) Eastern Time (US &amp; Canada)</option>
+<option value="Indiana (East)">(GMT-05:00) Indiana (East)</option>
+<option value="Lima">(GMT-05:00) Lima</option>
+<option value="Quito">(GMT-05:00) Quito</option>
+<option value="Caracas">(GMT-04:30) Caracas</option>
+<option value="America/Santiago">(GMT-04:00) America/Santiago</option>
+<option value="Atlantic Time (Canada)">(GMT-04:00) Atlantic Time (Canada)</option>
+<option value="La Paz">(GMT-04:00) La Paz</option>
+<option value="Santiago">(GMT-04:00) Santiago</option>
+<option value="Newfoundland">(GMT-03:30) Newfoundland</option>
+<option value="Brasilia">(GMT-03:00) Brasilia</option>
+<option value="Buenos Aires" selected="selected">(GMT-03:00) Buenos Aires</option>
+<option value="Georgetown">(GMT-03:00) Georgetown</option>
+<option value="Greenland">(GMT-03:00) Greenland</option>
+<option value="Mid-Atlantic">(GMT-02:00) Mid-Atlantic</option>
+<option value="Azores">(GMT-01:00) Azores</option>
+<option value="Cape Verde Is.">(GMT-01:00) Cape Verde Is.</option>
+<option value="Casablanca">(GMT+00:00) Casablanca</option>
+<option value="Dublin">(GMT+00:00) Dublin</option>
+<option value="Edinburgh">(GMT+00:00) Edinburgh</option>
+<option value="Lisbon">(GMT+00:00) Lisbon</option>
+<option value="London">(GMT+00:00) London</option>
+<option value="Monrovia">(GMT+00:00) Monrovia</option>
+<option value="UTC">(GMT+00:00) UTC</option>
+<option value="Amsterdam">(GMT+01:00) Amsterdam</option>
+<option value="Belgrade">(GMT+01:00) Belgrade</option>
+<option value="Berlin">(GMT+01:00) Berlin</option>
+<option value="Bern">(GMT+01:00) Bern</option>
+<option value="Bratislava">(GMT+01:00) Bratislava</option>
+<option value="Brussels">(GMT+01:00) Brussels</option>
+<option value="Budapest">(GMT+01:00) Budapest</option>
+<option value="Copenhagen">(GMT+01:00) Copenhagen</option>
+<option value="Ljubljana">(GMT+01:00) Ljubljana</option>
+<option value="Madrid">(GMT+01:00) Madrid</option>
+<option value="Paris">(GMT+01:00) Paris</option>
+<option value="Prague">(GMT+01:00) Prague</option>
+<option value="Rome">(GMT+01:00) Rome</option>
+<option value="Sarajevo">(GMT+01:00) Sarajevo</option>
+<option value="Skopje">(GMT+01:00) Skopje</option>
+<option value="Stockholm">(GMT+01:00) Stockholm</option>
+<option value="Vienna">(GMT+01:00) Vienna</option>
+<option value="Warsaw">(GMT+01:00) Warsaw</option>
+<option value="West Central Africa">(GMT+01:00) West Central Africa</option>
+<option value="Zagreb">(GMT+01:00) Zagreb</option>
+<option value="Athens">(GMT+02:00) Athens</option>
+<option value="Bucharest">(GMT+02:00) Bucharest</option>
+<option value="Cairo">(GMT+02:00) Cairo</option>
+<option value="Harare">(GMT+02:00) Harare</option>
+<option value="Helsinki">(GMT+02:00) Helsinki</option>
+<option value="Istanbul">(GMT+02:00) Istanbul</option>
+<option value="Jerusalem">(GMT+02:00) Jerusalem</option>
+<option value="Kyev">(GMT+02:00) Kyev</option>
+<option value="Minsk">(GMT+02:00) Minsk</option>
+<option value="Pretoria">(GMT+02:00) Pretoria</option>
+<option value="Riga">(GMT+02:00) Riga</option>
+<option value="Sofia">(GMT+02:00) Sofia</option>
+<option value="Tallinn">(GMT+02:00) Tallinn</option>
+<option value="Vilnius">(GMT+02:00) Vilnius</option>
+<option value="Baghdad">(GMT+03:00) Baghdad</option>
+<option value="Kuwait">(GMT+03:00) Kuwait</option>
+<option value="Moscow">(GMT+03:00) Moscow</option>
+<option value="Nairobi">(GMT+03:00) Nairobi</option>
+<option value="Riyadh">(GMT+03:00) Riyadh</option>
+<option value="St. Petersburg">(GMT+03:00) St. Petersburg</option>
+<option value="Volgograd">(GMT+03:00) Volgograd</option>
+<option value="Tehran">(GMT+03:30) Tehran</option>
+<option value="Abu Dhabi">(GMT+04:00) Abu Dhabi</option>
+<option value="Baku">(GMT+04:00) Baku</option>
+<option value="Muscat">(GMT+04:00) Muscat</option>
+<option value="Tbilisi">(GMT+04:00) Tbilisi</option>
+<option value="Yerevan">(GMT+04:00) Yerevan</option>
+<option value="Kabul">(GMT+04:30) Kabul</option>
+<option value="Ekaterinburg">(GMT+05:00) Ekaterinburg</option>
+<option value="Islamabad">(GMT+05:00) Islamabad</option>
+<option value="Karachi">(GMT+05:00) Karachi</option>
+<option value="Tashkent">(GMT+05:00) Tashkent</option>
+<option value="Chennai">(GMT+05:30) Chennai</option>
+<option value="Kolkata">(GMT+05:30) Kolkata</option>
+<option value="Mumbai">(GMT+05:30) Mumbai</option>
+<option value="New Delhi">(GMT+05:30) New Delhi</option>
+<option value="Sri Jayawardenepura">(GMT+05:30) Sri Jayawardenepura</option>
+<option value="Kathmandu">(GMT+05:45) Kathmandu</option>
+<option value="Almaty">(GMT+06:00) Almaty</option>
+<option value="Astana">(GMT+06:00) Astana</option>
+<option value="Dhaka">(GMT+06:00) Dhaka</option>
+<option value="Novosibirsk">(GMT+06:00) Novosibirsk</option>
+<option value="Rangoon">(GMT+06:30) Rangoon</option>
+<option value="Bangkok">(GMT+07:00) Bangkok</option>
+<option value="Hanoi">(GMT+07:00) Hanoi</option>
+<option value="Jakarta">(GMT+07:00) Jakarta</option>
+<option value="Krasnoyarsk">(GMT+07:00) Krasnoyarsk</option>
+<option value="Beijing">(GMT+08:00) Beijing</option>
+<option value="Chongqing">(GMT+08:00) Chongqing</option>
+<option value="Hong Kong">(GMT+08:00) Hong Kong</option>
+<option value="Irkutsk">(GMT+08:00) Irkutsk</option>
+<option value="Kuala Lumpur">(GMT+08:00) Kuala Lumpur</option>
+<option value="Perth">(GMT+08:00) Perth</option>
+<option value="Singapore">(GMT+08:00) Singapore</option>
+<option value="Taipei">(GMT+08:00) Taipei</option>
+<option value="Ulaan Bataar">(GMT+08:00) Ulaan Bataar</option>
+<option value="Urumqi">(GMT+08:00) Urumqi</option>
+<option value="Osaka">(GMT+09:00) Osaka</option>
+<option value="Sapporo">(GMT+09:00) Sapporo</option>
+<option value="Seoul">(GMT+09:00) Seoul</option>
+<option value="Tokyo">(GMT+09:00) Tokyo</option>
+<option value="Yakutsk">(GMT+09:00) Yakutsk</option>
+<option value="Adelaide">(GMT+09:30) Adelaide</option>
+<option value="Darwin">(GMT+09:30) Darwin</option>
+<option value="Brisbane">(GMT+10:00) Brisbane</option>
+<option value="Canberra">(GMT+10:00) Canberra</option>
+<option value="Guam">(GMT+10:00) Guam</option>
+<option value="Hobart">(GMT+10:00) Hobart</option>
+<option value="Melbourne">(GMT+10:00) Melbourne</option>
+<option value="Port Moresby">(GMT+10:00) Port Moresby</option>
+<option value="Sydney">(GMT+10:00) Sydney</option>
+<option value="Vladivostok">(GMT+10:00) Vladivostok</option>
+<option value="Magadan">(GMT+11:00) Magadan</option>
+<option value="New Caledonia">(GMT+11:00) New Caledonia</option>
+<option value="Solomon Is.">(GMT+11:00) Solomon Is.</option>
+<option value="Auckland">(GMT+12:00) Auckland</option>
+<option value="Fiji">(GMT+12:00) Fiji</option>
+<option value="Kamchatka">(GMT+12:00) Kamchatka</option>
+<option value="Marshall Is.">(GMT+12:00) Marshall Is.</option>
+<option value="Wellington">(GMT+12:00) Wellington</option>
+<option value="Nuku'alofa">(GMT+13:00) Nuku'alofa</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="zona_horaria" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(15) ¿Requiere liberar el numero de los documentos anulados que constituyen venta?">(15) ¿Requiere liberar el numero de los documentos anulados que constituyen venta?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="clear_doc_number"name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="clear_doc_number" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(16) ¿Requiere liberar el numero de los documentos anulados que NO constituyen venta?">(16) ¿Requiere liberar el numero de los documentos anulados que NO constituyen venta?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="clear_doc_number_nv" name="sys_config[][valor]"><option value="0"  >No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="clear_doc_number_nv" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(17) ¿Requiere liberar el numero de los documentos anulados de despacho?">(17) ¿Requiere liberar el numero de los documentos anulados de despacho?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="libera_num_guia_desp" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="libera_num_guia_desp" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(18) ¿Exportar documentos relacionados en buscador de documentos?">(18) ¿Exportar documentos relacionados en buscador de documentos?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select init="0" id="related_docs_on_xls"name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="related_docs_on_xls" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(19) Desde documentos, ¿Requieres definir documentos de referencia?">(19) Desde documentos, ¿Requieres definir documentos de referencia?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="usa_doc_referencia"name="sys_config[][valor]"><option value="0"  >No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="usa_doc_referencia" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(20) ¿Requieres Códigos de Barras Compuesto?">(20) ¿Requieres Códigos de Barras Compuesto?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select class="revisar_dependencias" id="cod_barra_compuesto"name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="cod_barra_compuesto" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(21) ¿Cuantos decimales se generán en el codigo de barras compuesto?">(21) ¿Cuantos decimales se generán en el codigo de barras compuesto?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="decimal_cod_barra_compuesto"type="text" name="sys_config[][valor]" value="4" class="validate-numbers" max-value="6" decimal="false" /><a id="help_decimal_cod_barra_compuesto"></a>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="decimal_cod_barra_compuesto" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(22) ¿Deseas recibir notificaciones?">(22) ¿Deseas recibir notificaciones?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="notificaciones"
+                  name="sys_config[][valor]" class="revisar_dependencias"><option value="0" selected=selected >
+                  No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="notificaciones" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(23) ¿Quieres ser notificado cuando tengas documentos por facturar?">(23) ¿Quieres ser notificado cuando tengas documentos por facturar?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="notificaciones_docs_por_vencer"
+                  name="sys_config[][valor]"><option value="0" selected=selected >
+                  No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="notificaciones_docs_por_vencer" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(24) ¿Quieres ser notificado cuando tengas créditos por vencer?">(24) ¿Quieres ser notificado cuando tengas créditos por vencer?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="notificaciones_credito_por_cobrar"
+                  name="sys_config[][valor]"><option value="0" selected=selected >
+                  No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="notificaciones_credito_por_cobrar" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(25) ¿Cada cuantos dias deseas ser notificado?">(25) ¿Cada cuantos dias deseas ser notificado?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="notificaciones_cant_dias"type="text" name="sys_config[][valor]" value="5"/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="notificaciones_cant_dias" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(26) Correo electrónico de notificación">(26) Correo electrónico de notificación</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="notificaciones_mail"type="text" name="sys_config[][valor]" value=""/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="notificaciones_mail" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(27) ¿Quieres ser notificado cuando tengas hitos por vencer?">(27) ¿Quieres ser notificado cuando tengas hitos por vencer?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="notificaciones_hitos_por_vencer"
+                  name="sys_config[][valor]"><option value="0" selected=selected >
+                  No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="notificaciones_hitos_por_vencer" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(28) ¿Reservar stock con documentos que no constituyen venta?">(28) ¿Reservar stock con documentos que no constituyen venta?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="nv_reserva_stock"name="sys_config[][valor]"><option value="0"  >No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="nv_reserva_stock" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(29) ¿Permitir el cambio rápido de vendedor?">(29) ¿Permitir el cambio rápido de vendedor?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="pos_cambia_vendedor"
+                  name="sys_config[][valor]"><option value="0" selected=selected >
+                  No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="pos_cambia_vendedor" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(30) Limite de crédito por defecto al crear clientes">(30) Limite de crédito por defecto al crear clientes</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="client_auto_credit"type="text" name="sys_config[][valor]" value="0" class="validate-numbers" />
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="client_auto_credit" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(31) Tipo de Cliente por defecto">(31) Tipo de Cliente por defecto</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="tipo_cliente_default"
+                  name="sys_config[][valor]"><option value="0"  >
+                  Persona</option><option value="1" selected=selected>Empresa</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="tipo_cliente_default" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(32) ¿Requiere que los reportes incorporen impuestos?">(32) ¿Requiere que los reportes incorporen impuestos?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="report_with_tax"
+                  name="sys_config[][valor]"><option value="0"  >
+                  No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="report_with_tax" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(33) Desde documentos, ¿Requiere ingresar datos adicionales en los items?">(33) Desde documentos, ¿Requiere ingresar datos adicionales en los items?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="attr_dyn_cart_item"
+                   name="sys_config[][valor]"><option value="0" selected=selected >
+                   No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="attr_dyn_cart_item" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(34) ¿Requieres agrupar los elementos de la venta?">(34) ¿Requieres agrupar los elementos de la venta?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="cart_item_agrupado" name="sys_config[][valor]" ><option value="0"  > No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="cart_item_agrupado" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(35) ¿Requieres agrupar los elementos al imprimir?">(35) ¿Requieres agrupar los elementos al imprimir?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="cart_item_agrupado_print" name="sys_config[][valor]" ><option value="0" selected=selected > No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="cart_item_agrupado_print" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(36) ¿Deseas que al crear tus productos, por defecto puedan ser vendidos aun cuando no posean stock?">(36) ¿Deseas que al crear tus productos, por defecto puedan ser vendidos aun cuando no posean stock?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="producto_venta_sin_stock" name="sys_config[][valor]" ><option value="0" selected=selected > No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="producto_venta_sin_stock" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(37) ¿Mostrar el detalle de Boletas en Exportación de Libro Mensual?">(37) ¿Mostrar el detalle de Boletas en Exportación de Libro Mensual?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="desglosa_libro" name="sys_config[][valor]" ><option value="0" selected=selected > No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="desglosa_libro" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(38) ¿Permitir acortar nombre del detalle a una linea en formatos contínuos?">(38) ¿Permitir acortar nombre del detalle a una linea en formatos contínuos?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="print_detalle_una_linea" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="print_detalle_una_linea" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(39) ¿Deseas mostrar el SKU al inicio del nombre de los productos/servicios?">(39) ¿Deseas mostrar el SKU al inicio del nombre de los productos/servicios?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="show_sku_sale" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="show_sku_sale" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(40) En la exportación a Excel de reportes: ¿Desear unir el producto/servicio con la variante?">(40) En la exportación a Excel de reportes: ¿Desear unir el producto/servicio con la variante?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="xls_union_prod_variant" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="xls_union_prod_variant" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(41) ¿Requieres Liquidar Documentos?">(41) ¿Requieres Liquidar Documentos?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select class="revisar_dependencias" id="liq_factura" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="liq_factura" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(42) ¿Requieres separar la fecha y hora de venta al exportar reportes de venta?">(42) ¿Requieres separar la fecha y hora de venta al exportar reportes de venta?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="split_sale_datetime" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="split_sale_datetime" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(43) ¿Requieres el subtotal neto y el subtotal bruto al exportar reportes de venta?">(43) ¿Requieres el subtotal neto y el subtotal bruto al exportar reportes de venta?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="show_both_subtotals" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="show_both_subtotals" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(44) Impuesto que aplicas a la comision de la liquidacion">(44) Impuesto que aplicas a la comision de la liquidacion</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="liq_factura_impuesto" name="sys_config[][valor]"><option value="1" selected="selected">IVA</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="liq_factura_impuesto" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(45) ¿Requieres Documentos de Exportacion?">(45) ¿Requieres Documentos de Exportacion?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select class="revisar_dependencias" id="fact_exportacion" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="fact_exportacion" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(46) ¿Deseas imprimir el Descuento Global?">(46) ¿Deseas imprimir el Descuento Global?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="print_desc_global" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="print_desc_global" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(47) ¿Como deseas llamar al Descuento Global?">(47) ¿Como deseas llamar al Descuento Global?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="txt_desc_global" type="text" maxlength="20" name="sys_config[][valor]" value="Descuento en $" />
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="txt_desc_global" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(48) En ventas con 100% de descuento, ¿Que tipo de documento deseas utilizar?">(48) En ventas con 100% de descuento, ¿Que tipo de documento deseas utilizar?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="zero_total_doc" name="sys_config[][valor]"><option value="0" selected="selected">Sin definir</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="zero_total_doc" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(49) ¿Poder combinar documentos de distintos clientes (Nuevo a partir de Existente)?">(49) ¿Poder combinar documentos de distintos clientes (Nuevo a partir de Existente)?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="comb_doc_cliente" name="sys_config[][valor]"><option value="0"  >No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="comb_doc_cliente" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(50) ¿Requieres enviar, automaticamente, por correo electrónico los documentos emitidos?">(50) ¿Requieres enviar, automaticamente, por correo electrónico los documentos emitidos?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="auto_send_mail_from_sale"name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="auto_send_mail_from_sale" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(51) ¿Deseas agregar automaticamente el producto/servicio cuando el resultado sea unico?">(51) ¿Deseas agregar automaticamente el producto/servicio cuando el resultado sea unico?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="auto_add_product" name="sys_config[][valor]"><option value="0"  >No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="auto_add_product" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(52) ¿Desea activar Factor de Propocionalidad en Libro Compra?">(52) ¿Desea activar Factor de Propocionalidad en Libro Compra?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="activa_factor_proporcionalidad" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="activa_factor_proporcionalidad" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(53) ¿Requieres Facturas de Compra?">(53) ¿Requieres Facturas de Compra?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="fact_compra" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="fact_compra" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(54) ¿En que parte del proceso requieres la validacion de stock de los productos?">(54) ¿En que parte del proceso requieres la validacion de stock de los productos?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="can_add_no_stock" name="sys_config[][valor]"><option value="0" selected=selected >Al agregar producto</option><option value="1" >Al confirmar documento</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="can_add_no_stock" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(55) ¿En base a que concepto requieres el porcentaje de margen?">(55) ¿En base a que concepto requieres el porcentaje de margen?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="margen_porcent" name="sys_config[][valor]"><option value="0" selected=selected >Costo Neto</option><option value="1" >Venta Neta</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="margen_porcent" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(56) ¿Requieres generar Notas de Crédito con monto mayor al documento de referencia?">(56) ¿Requieres generar Notas de Crédito con monto mayor al documento de referencia?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="nc_monto_mayor" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="nc_monto_mayor" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(57) En DTE antiguos, ¿realizar acuse de DTE con fecha actual?">(57) En DTE antiguos, ¿realizar acuse de DTE con fecha actual?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="fecha_acuse_dte" name="sys_config[][valor]"><option value="0"  >No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="fecha_acuse_dte" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(58) ¿Permitir utilizar Notas de Crédito de Forma de Pago, fuera del plazo?">(58) ¿Permitir utilizar Notas de Crédito de Forma de Pago, fuera del plazo?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="nc_fp_fecha" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="nc_fp_fecha" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(59) En nuevo doc. a partir de existente, ¿Requieres agrupar, en la impresion, los detalles en una sola glosa?">(59) En nuevo doc. a partir de existente, ¿Requieres agrupar, en la impresion, los detalles en una sola glosa?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="fe_glosa_print" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="fe_glosa_print" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(60) En despacho a partir de documento, ¿Requieres usar Picking por defecto?">(60) En despacho a partir de documento, ¿Requieres usar Picking por defecto?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="picking_by_default" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="picking_by_default" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(61) ¿Requieres mostrar todos los decimales en los valores unitarios de la impresión, aun cuando sea 0?">(61) ¿Requieres mostrar todos los decimales en los valores unitarios de la impresión, aun cuando sea 0?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="show_all_decimals_on_print" name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="show_all_decimals_on_print" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(62) Enviar siempre la forma de pago "Crédito" en los DTE?">(62) Enviar siempre la forma de pago "Crédito" en los DTE?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="always_credit_dte"
+                    name="sys_config[][valor]"><option value="0"  >
+                    No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="always_credit_dte" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(63) ¿Desea configurar el monto maximo que puede tener un documento?">(63) ¿Desea configurar el monto maximo que puede tener un documento?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="define_monto_maximo_doc" name="sys_config[][valor]" class="revisar_dependencias"> <option value="0" selected=selected  >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="define_monto_maximo_doc" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(64) Ingrese el monto maximo que tendrán sus documentos">(64) Ingrese el monto maximo que tendrán sus documentos</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="monto_maximo_doc" type="text" name="sys_config[][valor]" value="10000000" class="validate-numbers" decimal="false"/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="monto_maximo_doc" />
+                  </div>
+                </div>
+              </div>
+            
+            
+          </div>
+        </div>
+      
+        <div id="punto-de-venta" class="">
+          <div id="titulo_empresa" class="mae-h selected">
+            <div class="mae-attr-body-det">
+              <div class="mae-attr-sys">
+                Descripción
+              </div>
+              <div class="mae-attr-sys">
+                Valor
+              </div>
+            </div>
+          </div>
+          
+          <div id="lista_var_empresa" class="selected">
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(1) ¿Que tipo de documento utilizas con mayor frecuencia?">(1) ¿Que tipo de documento utilizas con mayor frecuencia?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="default_tipo_documento_tributario" name="sys_config[][valor]"><option value="0">Sin definir</option>
+<option value="1" selected="selected">BOLETA ELECTRÓNICA T</option>
+<option value="5">FACTURA ELECTRÓNICA</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="default_tipo_documento_tributario" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(2) ¿Que Tipo de Entrega por defecto requieres?">(2) ¿Que Tipo de Entrega por defecto requieres?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="tipo_entrega_pos"name="sys_config[][valor]"><option value="0" selected=selected >Entrega Inmediata</option><option value="1" >Por Despachar</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="tipo_entrega_pos" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(3) Imprimir borrador de venta">(3) Imprimir borrador de venta</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="print_nv_pos"name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="print_nv_pos" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(4) ¿Deseas utilizar el servicio de Google Cloud Print desde tus dispositivos móviles?">(4) ¿Deseas utilizar el servicio de Google Cloud Print desde tus dispositivos móviles?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="google_cloud_print"name="sys_config[][valor]"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="google_cloud_print" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(5) ¿Permitir unir multiples borradores?">(5) ¿Permitir unir multiples borradores?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="pos_unir_borradores"
+                  name="sys_config[][valor]"><option value="0" selected=selected >
+                  No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="pos_unir_borradores" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(6) Al usar dispositivos tactiles, no moviles, ¿priorizar la pantalla vs el mouse?">(6) Al usar dispositivos tactiles, no moviles, ¿priorizar la pantalla vs el mouse?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="priorizar_touch" name="sys_config[][valor]" ><option value="0" selected=selected > No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="priorizar_touch" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(7) ¿Requieres incoporporar una propina sugerida en los borradores?">(7) ¿Requieres incoporporar una propina sugerida en los borradores?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="propina_borrador_pos" name="sys_config[][valor]" ><option value="0" selected=selected > No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="propina_borrador_pos" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(8) Al cerrar caja, ¿Liberar los borradores de venta?">(8) Al cerrar caja, ¿Liberar los borradores de venta?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="clear_pos_draft" name="sys_config[][valor]" ><option value="0"  > No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="clear_pos_draft" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(9) Porcentaje de Propina">(9) Porcentaje de Propina</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="propina_borrador_pos_porcent" type="text" class="validate-numbers" decimal="true" max-decimal="2" name="sys_config[][valor]" value="10" />
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="propina_borrador_pos_porcent" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(10) ¿Como necesitas tus cierres de caja?">(10) ¿Como necesitas tus cierres de caja?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="tipo_cierre_pos" name="sys_config[][valor]"><option value="0" selected=selected >Por Emisor</option><option value="1" >Por Sucursal</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="tipo_cierre_pos" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(11) ¿Requieres generar mas de un cierre de caja por dia?, por tipo de cierre (vendedor/sucursal)">(11) ¿Requieres generar mas de un cierre de caja por dia?, por tipo de cierre (vendedor/sucursal)</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="multicierre_diario" name="sys_config[][valor]" class="revisar_dependencias"><option value="0" selected=selected > No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="multicierre_diario" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(12) ¿Requieres cierres de cajas que consideren mas de un dia?">(12) ¿Requieres cierres de cajas que consideren mas de un dia?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="cierre_multidia" name="sys_config[][valor]" class="revisar_dependencias"><option value="0" selected=selected > No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="cierre_multidia" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(13) Mostrar el descuento al imprimir borrador">(13) Mostrar el descuento al imprimir borrador</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="draft_detail_show_discount" name="sys_config[][valor]" class="revisar_dependencias"><option value="0"  > No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="draft_detail_show_discount" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(14) Mostrar productos mas vendidos">(14) Mostrar productos mas vendidos</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="usa_mas_vendido" name="sys_config[][valor]" class="revisar_dependencias"><option value="0"  > No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="usa_mas_vendido" />
+                  </div>
+                </div>
+              </div>
+            
+            
+          </div>
+        </div>
+      
+        <div id="integraciones" class="">
+          <div id="titulo_empresa" class="mae-h selected">
+            <div class="mae-attr-body-det">
+              <div class="mae-attr-sys">
+                Descripción
+              </div>
+              <div class="mae-attr-sys">
+                Valor
+              </div>
+            </div>
+          </div>
+          
+          <div id="lista_var_empresa" class="selected">
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(1) ¿Tienes un enlace con un sistema contable?">(1) ¿Tienes un enlace con un sistema contable?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="enlace_contable" name="sys_config[][valor]" class="revisar_dependencias"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="enlace_contable" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(2) ¿Requieres registrar los movimientos de existencias?">(2) ¿Requieres registrar los movimientos de existencias?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="enlace_usa_existencias" name="sys_config[][valor]" class="revisar_dependencias_enlace"><option value="0"  >No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="enlace_usa_existencias" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(3) ¿Requieres exportar los movimientos contable? (usando plantilla de exportacion)">(3) ¿Requieres exportar los movimientos contable? (usando plantilla de exportacion)</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="gen_asientos_mov_contable" name="sys_config[][valor]"><option value="0"  >No</option><option value="1" selected=selected>Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="gen_asientos_mov_contable" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(4) Cuenta devoluciones de dinero">(4) Cuenta devoluciones de dinero</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="enlace_cta_dev_dinero"type="text" name="sys_config[][valor]" value=""/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="enlace_cta_dev_dinero" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(5) Cuenta dineros por devolver">(5) Cuenta dineros por devolver</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="enlace_cta_dinero_por_devolver"type="text" name="sys_config[][valor]" value=""/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="enlace_cta_dinero_por_devolver" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(6) Cuentas por cobrar">(6) Cuentas por cobrar</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="enlace_cta_por_cobrar"type="text" name="sys_config[][valor]" value=""/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="enlace_cta_por_cobrar" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(7) Cuenta de existencias">(7) Cuenta de existencias</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="enlace_cta_existencia"type="text" name="sys_config[][valor]" value=""/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="enlace_cta_existencia" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(8) Cuenta facturas por recibir">(8) Cuenta facturas por recibir</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="enlace_cta_fact_por_recibir"type="text" name="sys_config[][valor]" value=""/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="enlace_cta_fact_por_recibir" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(9) Cuenta de resultado">(9) Cuenta de resultado</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="enlace_cta_resultado"type="text" name="sys_config[][valor]" value=""/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="enlace_cta_resultado" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(10) Centro de Costo para Glosas">(10) Centro de Costo para Glosas</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="enlace_cen_glosa_din"type="text" name="sys_config[][valor]" value=""/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="enlace_cen_glosa_din" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(11) Cuenta para Glosas">(11) Cuenta para Glosas</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <input id="enlace_cta_glosa_din"type="text" name="sys_config[][valor]" value=""/>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="enlace_cta_glosa_din" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(12) ¿Cuál sucursal es la que utilizaras en la integración?">(12) ¿Cuál sucursal es la que utilizaras en la integración?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="sucursal_virtual" name="sys_config[][valor]"><option value="0" selected="selected">Sin definir</option>
+<option value="1">Casa Matriz</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="sucursal_virtual" />
+                  </div>
+                </div>
+              </div>
+            
+              
+              
+              
+              <div class="mae-d" id="preview">
+                <div class="mae-attr-body-det">
+                  <div class="mae-attr-sys" id="descripcion_view" title="(13) ¿Quieres sincronizar Bsale con Bootic?">(13) ¿Quieres sincronizar Bsale con Bootic?</div>
+                  <div class="mae-attr-sys" id="valor_view">
+                    <select id="enlace_bootic" name="sys_config[][valor]" class="revisar_dependencias"><option value="0" selected=selected >No</option><option value="1" >Si</option></select>
+                    <input id="sys_config__variable" name="sys_config[][variable]" type="hidden" value="enlace_bootic" />
+                  </div>
+                </div>
+              </div>
+            
+            
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</form>
+    </div>
+  </div>
+
+              </div>
+            </div>
+            <div class="footer">
+              
+  <div id="panel_action" class="button-group">
+    <button id="save">Guardar</button>
+    <div class="link-group">
+      <a href="javascript:void(0);" id="cancel">Cancelar</a>
+    </div>
+  </div>
+
+            </div>
+          </div>
+          <div id="helper" class="hh">
+            <div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="main_footer">
+      </div>
+    </div>
+    <div id="promo">
+      <div id="promo_header"><div></div></div>
+      <div id="promo_scroll" class="b-content scroll">
+        <ul id="promo_detail">
+        </ul>
+      </div>
+      <div id="promo_footer">
+        <button class="btn-orange" id="promo_detail_confirm">Listo</button>
+        <button class="btn-gray" id="promo_detail_cancel">Cancelar</button>
+      </div>
+    </div>
+    <script type="text/javascript">
+      toerrmsg = "Hemos detectado que el tiempo de espera máximo ha sido superado, intenta un periodo mas corto";
+      toerrmsgi = "Hemos detectado que el tiempo de espera máximo ha sido superado, intenta realizar una importación con menos datos";
+      var numberUtilSeparator = ",";
+      var numberUtilDelimiter = ".";
+      var GIFTCARD_ACTIVE = false;
+      var TRANBANKPOS_ACTIVE = false;
+      var QRMELI_ACTIVE = false;
+    </script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/jrails.js?1669843816" type="text/javascript"></script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/jquery.form.js?1669843816" type="text/javascript"></script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/numbersUtil.js?1669843816" type="text/javascript"></script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/dateUtil.js?1669843816" type="text/javascript"></script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/textUtil.js?1669843816" type="text/javascript"></script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/jquery.cookie.js?1669843816" type="text/javascript"></script>
+
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/jquery.mobile-events-td.min.js?1669843816" type="text/javascript"></script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/flexcroll.js?1669843816" type="text/javascript"></script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/jquery.rut.min.js?1669843816" type="text/javascript"></script>
+
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/jquery-ui.js?1669843816" type="text/javascript"></script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/jquery.ui.datepicker-es.js?1669843816" type="text/javascript"></script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/jquery.scrollTo-min.js?1669843816" type="text/javascript"></script>
+
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/utils.js?1669843816" type="text/javascript"></script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/dynamic_fields.js?1669843816" type="text/javascript"></script>
+    <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/default/default.js?1669843816" type="text/javascript"></script>
+    
+    <input type="hidden" id="crt_cpn" value="22390"/>
+    <input type="hidden" id="crt_off" value="1"/>
+    <input type="hidden" id="crt_usr" value="2"/>
+    
+  
+  <script src="https://d235ymqxuwzadc.cloudfront.net/javascripts/jquery.fancybox.js?1669843816" type="text/javascript"></script>
+
+  <script type="text/javascript">
+
+  $(function () {
+    addRutFormater();
+    $('#save').live("click", function () {
+      validateSysConfig();
+    });
+    $('#cancel').live("click", function () {
+      cancelSysConfig();
+    });
+    $('.revisar_dependencias').live("change", function() {
+      revisaVariablesDependientes();
+    });
+
+    $('.glosa_dyn').live("change", function() {
+      revisaVariablesGlosaDynamica();
+    });
+
+    $('.revisar_maximo_doc').live("change", function() {
+      revisarMaximoValorDocumento();
+    });
+
+    $('#vlogoemp').live("click", function() {
+      //zoomIn('https://app.bsale.cl/' + $('#logo_url').val());
+      zoomIn($('#logo_url').val());
+    });
+
+    $('#nlogoemp').live("click", function() {
+      $('#nlogoemp, #vlogoemp').hide();
+      $('#new_file_element').show();
+    });
+
+    $('#dte_timbre_bsale').live("change", function() {
+      $('#dte_drone_bsale').parent().parent().parent().hide();
+      $('#dte_drone_bsale_lc').parent().parent().parent().hide();
+      $('#dte_drone_bsale_lv').parent().parent().parent().hide();
+      if ($('#dte_timbre_bsale').val() == 1) {
+        $('#dte_drone_bsale').parent().parent().parent().show();
+        $('#dte_drone_bsale_lc').parent().parent().parent().show();
+        $('#dte_drone_bsale_lv').parent().parent().parent().show();
+      }
+    });
+
+    $('#dte_drone_bsale').live("change", function() {
+      $('#dte_drone_bsale_lc').parent().parent().parent().hide();
+      $('#dte_drone_bsale_lv').parent().parent().parent().hide();
+      if ($('#dte_drone_bsale').val() == 1) {
+        $('#dte_drone_bsale_lc').parent().parent().parent().show();
+        $('#dte_drone_bsale_lv').parent().parent().parent().show();
+      }
+    });
+
+
+    $('#sucursal_virtual').live("change", function() {
+      if (parseInt($('#sucursal_virtual').val()) == "0") {
+        $('#enlace_prestashop').parent().parent().hide();
+        $('#enlace_bootic').parent().parent().hide();
+      } else {
+        $('#enlace_prestashop').parent().parent().show();
+        $('#enlace_bootic').parent().parent().show();
+      }
+      fleXenv.updateScrollBars();
+    });
+    $('#sucursal_virtual').trigger("change");
+
+    $('#propina_borrador_pos').live("change", function() {
+      $('#propina_borrador_pos_porcent').parent().parent().parent().hide();
+      if (parseInt($('#propina_borrador_pos').val()) == "1") {
+        $('#propina_borrador_pos_porcent').parent().parent().parent().show();
+      }
+    });
+    $('#propina_borrador_pos').trigger("change");
+
+    $('#client_auto_credit').attr("decimal", "true");
+    $('#client_auto_credit').attr("max-decimal", "2");
+    $('#client_auto_credit').attr("min-value", "0");
+    $('#client_auto_credit').attr("max-length", "11");
+
+    $('.revisar_dependencias_enlace').live("change", function() {
+      if( $('#enlace_contable').val() == 1 && $('#enlace_usa_existencias').val() == 1){
+        $('#enlace_cta_existencia').parent().parent().parent().show();
+        $('#enlace_cta_fact_por_recibir').parent().parent().parent().show();
+        $('#enlace_cta_resultado').parent().parent().parent().show();
+      } else {
+        $('#enlace_cta_existencia').parent().parent().parent().hide();
+        $('#enlace_cta_fact_por_recibir').parent().parent().parent().hide();
+        $('#enlace_cta_resultado').parent().parent().parent().hide();
+      }
+      forceScrollToTop($('#mae_sys_config'));
+    });
+
+    $('.revisa_dep_stock').live("change", function() {
+      if( $('#control_stock').val() == 1){
+        $('#nv_reserva_stock').parent().parent().parent().show();
+      } else {
+        $('#nv_reserva_stock').val("0").trigger("change");
+        $('#nv_reserva_stock').parent().parent().parent().hide();
+      }
+      //forceScrollToTop($('#mae_sys_config'));
+    });
+
+    $('#help_decimal_cod_barra_compuesto').live("click", function() {
+      var body = '<ul class="decimal_cod_barra">'
+      body += '<li><label class="img"></label></li>';
+      body += '<li><label class="color base"></label><label>Código de barras de la variante</label></li>';
+      body += '<li><label class="color decimal"></label><label>Sección decimales código de barras compuesto</label></li>';
+      body += '</ul>';
+      var footer = "<button rel='close' >Aceptar</button>";
+      msgPopUp({
+        'width': '450px',
+        'showTitle': false,
+        'closeButton': false,
+        'bodyContent': body,
+        'footerContent': footer
+      });
+    });
+    $('#enlace_bootic').live("change", function() {
+      var sucursal_virtual = $('#sucursal_virtual').val();
+      var estado_bootic = $('#enlace_bootic').val();
+      if (estado_bootic == 1 && sucursal_virtual == 0){
+        var body = '<ul><li>Primero debes seleccionar la sucursal con cuál trabajar</li></ul>'
+        var footer = "<button rel='close' >Aceptar</button>";
+        msgPopUp({
+          'width': '450px',
+          'showTitle': true,
+          'closeButton': false,
+          'titleText': '',
+          'bodyContent': body,
+          'footerContent': footer
+        });
+        return;
+      }
+      if (estado_bootic == 1 && sucursal_virtual != 0){
+        loading(true);
+        var url = '/bootic/request_credentials';
+        $.ajax({
+          url: url,
+          type: 'GET',
+          dataType: "json",
+          data: "virtual="+sucursal_virtual,
+          complete: function (respuesta) {
+            loading(false);
+            var json = $.parseJSON(respuesta.responseText);
+            location.href = json.url_bootic;
+          }
+        });
+      }
+    });
+    revisaVariablesDependientes();
+    revisaVariablesGlosaDynamica();
+    revisarMaximoValorDocumento();
+    $('#dte_timbre_bsale').trigger("change");
+    $('.revisar_dependencias_enlace').trigger("change");
+    $('.revisa_dep_stock').trigger("change");
+  });
+
+  function revisarMaximoValorDocumento () {
+    if (String($('#define_monto_maximo_doc').val()) == "1"){
+      $('#monto_maximo_doc').parents('.mae-d').show();
+    } else {
+      $('#monto_maximo_doc').parents('.mae-d').hide();
+    }
+  }
+
+  function revisaVariablesGlosaDynamica() {
+    if (String($('#glosa_dinamica_servicios').val()) == "1" && String($('#enlace_contable').val()) == "1") {
+      $('#enlace_cen_glosa_din').parents('.mae-d').show();
+      $('#enlace_cta_glosa_din').parents('.mae-d').show();
+    } else {
+      $('#enlace_cen_glosa_din').parents('.mae-d').hide();
+      $('#enlace_cta_glosa_din').parents('.mae-d').hide();
+    }
+    //forceScrollToTop($('#mae_sys_config'));
+  }
+
+  function revisaVariablesDependientes(){
+    if( $('#enlace_contable').val() == 0 ){
+      $('#enlace_cta_dev_dinero').parent().parent().parent().hide();
+      $('#enlace_cta_dinero_por_devolver').parent().parent().parent().hide();
+      $('#enlace_cta_existencia').parent().parent().parent().hide();
+      $('#enlace_cta_fact_por_recibir').parent().parent().parent().hide();
+      $('#enlace_cta_por_cobrar').parent().parent().parent().hide();
+      $('#enlace_cta_resultado').parent().parent().parent().hide();
+      $('#enlace_usa_existencias').parent().parent().parent().hide();
+      $('#gen_asientos_mov_contable').parent().parent().parent().hide();
+    }else{
+      $('#enlace_cta_dev_dinero').parent().parent().parent().show();
+      $('#enlace_cta_dinero_por_devolver').parent().parent().parent().show();
+      $('#enlace_cta_existencia').parent().parent().parent().show();
+      $('#enlace_cta_fact_por_recibir').parent().parent().parent().show();
+      $('#enlace_cta_por_cobrar').parent().parent().parent().show();
+      $('#enlace_cta_resultado').parent().parent().parent().show();
+      $('#enlace_usa_existencias').parent().parent().parent().show();
+      $('#gen_asientos_mov_contable').parent().parent().parent().show();
+      if (String($('#glosa_dinamica_servicios').val()) == "1" && String($('#enlace_contable').val()) == "1") {
+        $('#enlace_cen_glosa_din').parents('.mae-d').show();
+        $('#enlace_cta_glosa_din').parents('.mae-d').show();
+      }
+    }
+    if( $('#notificaciones').val() == 0){
+      $('#notificaciones_credito_por_cobrar').parent().parent().parent().hide();
+      $('#notificaciones_docs_por_vencer').parent().parent().parent().hide();
+      $('#notificaciones_hitos_por_vencer').parent().parent().parent().hide();
+      $('#notificaciones_cant_dias').parent().parent().parent().hide();
+      $('#notificaciones_mail').parent().parent().parent().hide();
+    }else{
+      $('#notificaciones_credito_por_cobrar').parent().parent().parent().show();
+      $('#notificaciones_docs_por_vencer').parent().parent().parent().show();
+      $('#notificaciones_hitos_por_vencer').parent().parent().parent().show();
+      $('#notificaciones_cant_dias').parent().parent().parent().show();
+      $('#notificaciones_mail').parent().parent().parent().show();
+    }
+    if ($('#despacho').val() == 0) {
+      $('#tipo_entrega_pos').parent().parent().parent().hide();
+      $('#tipo_entrega_documents').parent().parent().parent().hide();
+      $('#producto_venta_sin_stock').val("0").trigger("change");
+      $('#producto_venta_sin_stock').parent().parent().parent().hide();
+    } else {
+      $('#tipo_entrega_pos').parent().parent().parent().show();
+      $('#tipo_entrega_documents').parent().parent().parent().show();
+      if (String($('#categoria_producto').val()) != "1") {
+        $('#producto_venta_sin_stock').parent().parent().parent().show();
+      }
+    }
+    if ($('#need_pos').val() == 0) {
+      $('#propina_borrador_pos').val("0").trigger("change");
+      $('#propina_borrador_pos').parent().parent().parent().hide();
+      $('#pos_unir_borradores').parent().parent().parent().hide();
+      $('#priorizar_touch').parent().parent().parent().hide();
+      $('#default_tipo_documento_tributario').parent().parent().parent().hide();
+      $('#tipo_entrega_pos').parent().parent().parent().hide();
+      $('#print_nv_pos').parent().parent().parent().hide();
+      $('#google_cloud_print').parent().parent().parent().hide();
+    } else {
+      $('#pos_unir_borradores').parent().parent().parent().show();
+      $('#priorizar_touch').parent().parent().parent().show();
+      $('#propina_borrador_pos').parent().parent().parent().show();
+      $('#propina_borrador_pos').trigger("change");
+      $('#default_tipo_documento_tributario').parent().parent().parent().show();
+      $('#tipo_entrega_pos').parent().parent().parent().show();
+      $('#print_nv_pos').parent().parent().parent().show();
+      $('#google_cloud_print').parent().parent().parent().show();
+    }
+    if (String($('#categoria_producto').val()) == "0") {
+      //solo productos
+      $('#glosa_dinamica_servicios').val("0").trigger("change").parents('.mae-d').hide();
+      $('#control_stock').trigger("change").parents('.mae-d').show();
+      if ($('#despacho').val() == 1) {
+        $('#producto_venta_sin_stock').parent().parent().parent().show();
+      } else {
+        $('#producto_venta_sin_stock').val("0").trigger("change");
+        $('#producto_venta_sin_stock').parent().parent().parent().hide();
+      }
+    } else {
+      if (String($('#categoria_producto').val()) == "1") {
+        //solo servicios
+        $('#control_stock').val("0").trigger("change").parents('.mae-d').hide();
+        $('#producto_venta_sin_stock').val("0").trigger("change");
+        $('#producto_venta_sin_stock').parent().parent().parent().hide();
+      } else {
+        $('#control_stock').trigger("change").parents('.mae-d').show();
+        if ($('#despacho').val() == 1) {
+          $('#producto_venta_sin_stock').parent().parent().parent().show();
+        } else {
+          $('#producto_venta_sin_stock').val("0").trigger("change");
+          $('#producto_venta_sin_stock').parent().parent().parent().hide();
+        }
+      }
+      $('#glosa_dinamica_servicios').trigger("change").parents('.mae-d').show();
+    }
+
+    if (String($('#cod_barra_compuesto').val()) == "1") {
+      $('#decimal_cod_barra_compuesto').parents('.mae-d').show();
+    } else {
+      $('#decimal_cod_barra_compuesto').parents('.mae-d').hide();
+    }
+    if( $('#enlace_prestashop').val() == 0){
+      $('#url_api_prestashop').parent().parent().parent().hide();
+      $('#token_api_prestashop').parent().parent().parent().hide();
+      $('#doc_prestashop').parent().parent().parent().hide();
+      $('#estado_ordenes_prestashop').parent().parent().parent().hide();
+    }else{
+      $('#url_api_prestashop').parent().parent().parent().show();
+      $('#token_api_prestashop').parent().parent().parent().show();
+      $('#doc_prestashop').parent().parent().parent().show();
+      $('#estado_ordenes_prestashop').parent().parent().parent().show();
+    }
+
+    if (parseInt($('#liq_factura').val()) == 1) {
+      $('#liq_factura_impuesto').parent().parent().parent().show();
+    } else {
+      $('#liq_factura_impuesto').parent().parent().parent().hide();
+    }
+    $('#sucursal_virtual').trigger("change");
+    //forceScrollToTop($('#mae_sys_config'));
+
+    if (parseInt($('#define_monto_maximo_doc').val()) == "0") {
+      $('#monto_maximo_doc').parents('.mae-d').hide();
+    } else {
+       $('#monto_maximo_doc').parents('.mae-d').show();
+    }
+  }
+
+  function cancelSysConfig() {
+    loadSysConfig();
+  }
+
+  function loadSysConfig() {
+    loading(true);
+    forceScrollToTop($('#mae_sys_config'));
+    var url = '/admin/config/sys_config';
+    $.ajax({
+      url: url,
+      type: 'GET',
+      dataType: "script",
+      complete: function (data) {
+        revisaVariablesDependientes();
+        revisaVariablesGlosaDynamica();
+        $('.revisar_dependencias_enlace').trigger("change");
+        $('.revisa_dep_stock').trigger("change");
+        $('#propina_borrador_pos').trigger("change");
+        $('#dte_timbre_bsale').trigger("change");
+        addRutFormater();
+        loading(false);
+      }
+    });
+  }
+
+  function validateSysConfig() {
+    try {
+      if (!(validateNotEmpty('#sys_config_form', 'needed'))) {
+        return false;
+      }
+
+      $('#fecha_autorizacion_dte').val(formateaFecha($('#fecha_autorizacion_dte').val(), "dma", "amd", "/"));
+      $('#sys_config_time_zone').attr('name','sys_config[][valor]');
+      loading(true);
+      $('#sys_config_form').ajaxSubmit({
+        beforeSubmit: function (a, f, o) {
+          o.dataType = 'json';
+        },
+        complete: function (respuesta) {
+          var json = $.parseJSON(respuesta.responseText);
+          loading(false);
+          if (json.status == 'ok') {
+            cancelSysConfig();
+          } else {
+            var body = '<ul><li>'+json.msg+'</li></ul>';
+            if (json.status == 'ok-fail') {
+              cancelSysConfig();
+              body = '<ul class="ul_alert_h"><li>Los siguiente tipos de documento electronicos no poseen CAF</li><br/>';
+              $.each(json.detail, function(i, item) {
+                body += '<li>- '+item.tipo+'<br/></li>';
+              });
+              body += '</ul>';
+            }
+            var footer = "<button rel='close' >Aceptar</button>";
+            msgPopUp({
+              'width': '450px',
+              'showTitle': true,
+              'closeButton': false,
+              'titleText': 'Errores detectados',
+              'bodyContent': body,
+              'footerContent': footer
+            });
+            return;
+          }
+        }
+      });
+    }
+    catch (e) {
+    }
+  }
+
+</script>
+
+  <script type="text/javascript">
+    $(function () {
+      $('.floating_mae_menu').live("change", function () {
+        loading(true);
+        location.href = $(this).val();
+      });
+      var current_mnu = $('.gt_mnu > option[selected="selected"]').parent();
+      $('a[data-update=' + $(current_mnu).attr('id') + ']').addClass("current");
+    });
+  </script>
+
+  <script type="text/javascript">
+    var in_och_ti = "Seleccione su nueva sucursal";
+    var in_och_okti = "Cambiar";
+    var cncl_txt = "Cancelar";
+  </script>
+
+</body>
+</html>
